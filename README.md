@@ -8,7 +8,7 @@ This project is an Exploratory Data Analysis (EDA) focused on financial data and
 
 
 ##  Data Cleaning & Preprocessing Steps
-The initial raw dataset (`Loan_Total_RAW_Uncleaned.csv`) contained several data quality issues, which were resolved step-by-step:
+The initial raw dataset (`Loan_Default_RAW_Uncleaned_40k.csv`) contained several data quality issues, which were resolved step-by-step:
 * **Duplicate Removal:** Identified and removed duplicate rows from the dataset.
 * **Handling Invalid Entries:** Corrected or filtered out unrealistic values such as negative ages.
 * **Missing Value Imputation:** Handled missing values in columns like `Annual_Income`, `Employment_Length_Yrs`, and `Interest_Rate` using appropriate methods.
@@ -28,6 +28,7 @@ Several charts and graphs were generated to explore patterns and distributions:
 1. **Debt-to-Income Ratio Impact:** Borrowers with a higher debt-to-income ratio have significantly higher chances of loan default.
 2. **Credit Score & Defaults:** Customers with lower credit scores fall predominantly into the default category.
 3. **Loan Grades:** Lower loan grades (such as D and E) come with substantially higher interest rates, clearly reflecting higher risk.
+
 
 
 
